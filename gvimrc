@@ -1,3 +1,4 @@
+"set font for different platforms
 if has("gui_gtk3") || has("gui_gtk2")
     set guifont=DejaVu\ Sans\ Mono\ 12
 elseif has("gui_macvim")
