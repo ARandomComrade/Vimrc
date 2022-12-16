@@ -11,6 +11,7 @@ colorscheme default             "set colorscheme
 set expandtab                   "use spaces instead of tabs
 set shiftwidth=4                "set shiftwidth
 set tabstop=4                   "set tab width
+set softtabstop=4               "set tab cursor move width
 
 set nobackup                    "dont save backup files
 set showmode                    "show mode on last line
@@ -27,4 +28,3 @@ set statusline+=\ [%{&ff}]      " Fileformat [unix]/[dos] etc...
 set statusline+=%=              " Rest: right align
 set statusline+=%l,%c%V         " Position in buffer: linenumber, column, virtual column
 set statusline+=\ %P            " Position in buffer: Percentage
-
