@@ -7,6 +7,7 @@ filetype indent on              "use syntax indent settings
 syntax on                       "turn on syntax highlighting
 colorscheme default             "set colorscheme
 "set number                      "set line numbers
+set backspace=2                 "set backspace to delete eol, indent and leading whitespace
 
 set expandtab                   "use spaces instead of tabs
 set shiftwidth=4                "set shiftwidth
