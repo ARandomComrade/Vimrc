@@ -5,6 +5,7 @@ filetype plugin on              "use filetype plugin
 filetype indent on              "use syntax indent settings
 
 syntax on                       "turn on syntax highlighting
+colorscheme default             "set colorscheme
 "set number                      "set line numbers
 
 set expandtab                   "use spaces instead of tabs
