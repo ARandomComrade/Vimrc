@@ -1,5 +1,5 @@
 "set font for different platforms
-if has("gui_gtk3") || has("gui_gtk2")
+if has("gui_gtk")
     set guifont=DejaVu\ Sans\ Mono\ 10
 elseif has("gui_macvim")
     set guifont=Monaco:h10
