@@ -1,5 +1,4 @@
-set nocompatible                "turn off vi compatiblity
-
+"set nocompatible                "turn off vi compatiblity
 filetype on                     "set auto filetype
 filetype plugin on              "use filetype plugin
 filetype indent on              "use syntax indent settings
