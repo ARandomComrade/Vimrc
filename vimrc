@@ -25,7 +25,7 @@ set wildmenu                    "better menu completion
 
 "import lua files for neovim
 if has('nvim')
-    eval v:lua.require('settings').setup()
+    call v:lua.require('settings').setup()
 endif
 
 "last line status TODO simplify
