@@ -1,3 +1,6 @@
+"use light background for gvim
+set background=light
+
 "set font for different platforms
 if has('gui_gtk')
     set guifont=DejaVu\ Sans\ Mono\ 10
@@ -7,7 +10,7 @@ elseif has('gui_win32')
     set guifont=Consolas:h10
 endif
 
-"neovim gui specific
+"neovim gui specific, probably specific to nvim-qt
 if has('nvim')
     if exists(':GuiFont')
         if has('win32')
