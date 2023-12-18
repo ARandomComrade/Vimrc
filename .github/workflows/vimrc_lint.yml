@@ -29,6 +29,16 @@ jobs:
       - name: Get linter
         run: python -m pip install vim-vint
         
-      - name: run linter
+      - name: run linter vimrc
         run: vint ./vimrc
+
+      - name: run linter gvimrc
+        run: vint ./gvimrc
+
+      - name: run linter vimrc nvim
+        run: vint --enable-neovim ./vimrc
+
+      - name: run linter gvimrc nvim
+        run: vint --enable-neovim ./gvimrc
+
 
