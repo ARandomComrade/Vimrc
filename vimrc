@@ -30,7 +30,7 @@ endif
 
 "better fix for lack of colors in conemu in vim
 "dont do this for nvim! nvim has support for this term
-if &term=='win32' && !has('nvim')
+if &term==#'win32' && !has('nvim')
     if exists('$ConEmuANSI')
         set termguicolors
     endif
