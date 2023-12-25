@@ -28,6 +28,14 @@ if has('nvim')
     call v:lua.require('settings').setup()
 endif
 
+"better fix for lack of colors in conemu in vim
+"dont do this for nvim! nvim has support for this term
+if &term=='win32' && !has('nvim')
+    if exists('$ConEmuANSI')
+        set termguicolors
+    endif
+endif
+
 "last line status TODO simplify
 set laststatus=2                " make last line status 2 lines deep
 set statusline=%f               " filename relative to current $PWD
